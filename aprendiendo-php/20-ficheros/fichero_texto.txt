@@ -1,0 +1,4 @@
+Hola yo soy un archivo de texto
+
+Si me estoy mostrando quiere decir que el while loop
+funciona. Soy un texto metido desde phpSoy un texto metido desde phpSoy un texto metido desde phpSoy un texto metido desde phpSoy un texto metido desde phpSoy un texto metido desde php.<br>Soy un texto metido desde php.<br>Soy un texto metido desde php.Soy un texto metido desde php.Soy un texto metido desde php.Soy un texto metido desde php.Soy un texto metido desde php.Soy un texto metido desde php.Soy un texto metido desde php.Soy un texto metido desde php.Soy un texto metido desde php.
