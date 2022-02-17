@@ -1,1 +1,0 @@
-<h1 style="color:cadetblue"><?=$todas_las_notas?></h1>

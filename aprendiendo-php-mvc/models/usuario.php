@@ -8,6 +8,13 @@ class Usuario extends ModeloBase
     public $apellidos;
     public $email;
     public $password;
+
+    //Heredar el constructor parent
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
     public function getNombre()
     {
         return $this->nombre;

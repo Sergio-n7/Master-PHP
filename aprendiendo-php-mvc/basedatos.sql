@@ -17,7 +17,7 @@ CREATE TABLE notas(
     id int(255) AUTO_INCREMENT NOT NULL,
     usuario_id int(255) NOT NULL,
     titulo VARCHAR(255) NOT NULL,
-    descripcion MEDIUMINT,
+    descripcion MEDIUMTEXT,
     fecha DATE NOT NULL,
     CONSTRAINT pk_entradas PRIMARY KEY(id),
     CONSTRAINT fk_entrada_usuario FOREIGN KEY(usuario_id) REFERENCES usuarios(id)
