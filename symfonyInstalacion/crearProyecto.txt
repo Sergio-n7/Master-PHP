@@ -1,0 +1,15 @@
+crear projecto en el cd adecuado (mirar path en mamp console)
+codigo:
+
+$ composer create-project symfony/website-skeleton <nombre del proyecto>
+
+Una vez instalado el framework instalar la dependencia que nos permite trabajar 
+en apache.
+
+$ composer require symfony/apache-pack
+
+indicar yes cuando pregunta por execute recipe Y
+
+Para actualizar la versión de PHP y composer :
+
+$ composer update --ignore-platform-reqs

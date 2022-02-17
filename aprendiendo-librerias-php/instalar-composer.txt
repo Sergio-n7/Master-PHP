@@ -1,0 +1,29 @@
+Lo primero que tenemos que hacer para poder usar librerías externas de PHP es instalar Composer.
+
+en el directorio que quieres usar composer usar los siguientes commands:
+
+composer init      #Enter a todo lo que te pregunte
+composer update
+
+tutorial interesante para composer
+https://www.youtube.com/watch?v=NLXtGZ6Ilsw
+
+https://getcomposer.org/
+
+Para mac, seguir este enlace 
+
+https://gist.github.com/shashankmehta/6ff13acd60f449eea6311cba4aae900a
+
+para buscar paquetes de Composer (buscar el paquete en el buscador y cargas directmente el código en la terminal. Se añade al composer.json):
+
+https://packagist.org/
+
+Hay que cargar la librería directamente el la carpete del proyecto que necesitas, nunca globalmente (comando cd )
+Para incluir las librerias hay que mirar la documentación, te pone las rutas a seguir
+
+Tutorial sobre spr-4
+https://www.youtube.com/watch?v=ubVh1IHIDU0
+
+Tutorial para instalar composer en mac
+https://www.youtube.com/watch?v=PM_zCpLVMV4
+

@@ -1,0 +1,15 @@
+{
+    "name": "sergiosalguero/autoloading",
+    "autoload": {
+        "psr-4": {
+            "Sergiosalguero\\Autoloading\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sergiosalguero",
+            "email": "salgueroflor1982@gmail.com"
+        }
+    ],
+    "require": {}
+}
