@@ -1,0 +1,6 @@
+- pasar una variable 
+{{ <el nombre de la var sin $> }}
+
+- para definirla en el controller 
+ 'hello' => 'Hola Mundo con Symfony'
+

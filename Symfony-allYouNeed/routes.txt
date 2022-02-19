@@ -1,0 +1,23 @@
+ROUTES
+
+- para crear rutas usamos el archivo routes.yaml(indicamos el path y la redirección)
+
+index:
+    path: /inicio
+    controller: App\Controller\HomeController::index
+
+    + podemos pasar un parámetro con el siguinte sintaxi (tienes que poner la variable como parámetro en el controller)
+
+    index:
+    path: /inicio/{nombre?} #el interrogante lo hace opcional
+    controller: App\Controller\HomeController::index
+    defaults: { nombre: 'Sergi Salguero' } #Si no le damos ningún valor por la URL este será el valor que se mostrará por defecto 
+
+    animales:
+  path: /animales/{nombre?}/{apellidos?}
+  controller: App\Controller\HomeController::animales
+  defaults: { nombre: "Sergi", apellidos: "Salguero Flor" }
+  methods: [GET]
+  requirements:
+    nombre: "[a-zA-Z ]+"
+    apellidos: "[0-9a-zA-Z ]+"
